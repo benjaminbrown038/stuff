@@ -1,1 +1,22 @@
 
+<package format="3">
+  <name>perception_core</name>
+  <version>0.0.1</version>
+  <description>Core nodes for object detection and tracking</description>
+  
+  <maintainer email="you@email.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Dependencies -->
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>vision_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>std_msgs</depend>
+  <depend>perception_msgs</depend>
+
+  <!-- Export info -->
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
